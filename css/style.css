@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  height: 100vh;
+  font-size: 18px;
+  font-family: Georgia, Serif;
+  color: #000000;
+  background-color: #f4fbfc84;
+}
+.hero-container {
+   background-image: url('../images/bg-hero-desktop.svg');
+   background-color: hsl(193, 100%, 96%);
+   background-size: cover;
+   padding: 32px;
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.logo {
+  height: auto;
+  max-width: 300px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.hero-wrapper .content {
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 48px;
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+.hero-wrapper img {
+  max-width: 50%;
+  flex-shrink: 0;
+}
+.btn-primary {
+  border-radius: 8px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  padding: 8px;
+  text-align: center;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 32px;
+  margin: 16px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 16px;
+  border-radius: 16px;
+  z-index: 5;
+  box-shadow:  0 -3px 5px hsl(208, 11%, 55%), 0 3px 5px hsl(208, 11%, 55%);
+}
+.info .img {
+  max-width: 50%;
+  flex-shrink: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 48px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.footer-links li, a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
